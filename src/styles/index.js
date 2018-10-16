@@ -32,3 +32,36 @@ export const FormGroup = styled.div`
     font-size: 1em;
   }
 `;
+
+export const HeaderRow = styled.header`
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #666;
+`;
+
+export const ActionRow = styled.div`
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  margin: 10px;
+  align-items: center;
+  justify-content: flex-end;
+  border-top: 1px solid #666;
+`;
+
+export const Button = styled.button`
+  margin: 5px;
+  padding: 5px 15px;
+  font-size: 1em;
+  color: black;
+  background-color: #eee;
+`;
+
+export const SubmitButton = styled(Button)`
+  color: white;
+  background-color: #3b3;
+`;
