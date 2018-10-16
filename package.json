@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@storybook/react": "^3.4.11",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-scripts": "2.0.5"
@@ -11,7 +12,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -c .storybook"
   },
   "eslintConfig": {
     "extends": "react-app"
