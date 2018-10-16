@@ -7,7 +7,7 @@ export class HorizontalInputField extends React.Component {
     const { id, label, name, onChange } = this.props;
     return (
       <FormGroup>
-        <label for={name}>{label}</label>
+        <label htmlFor={name}>{label}</label>
         <input
           className="form-control"
           id={id}

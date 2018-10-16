@@ -29,5 +29,6 @@ export const FormGroup = styled.div`
   > .form-control {
     flex: 5;
     padding: 10px;
+    font-size: 1em;
   }
 `;

@@ -841,7 +841,7 @@
   resolved "https://registry.yarnpkg.com/@emotion/memoize/-/memoize-0.6.6.tgz#004b98298d04c7ca3b4f50ca2035d4f60d2eed1b"
   integrity sha512-h4t4jFjtm1YV7UirAFuSuFGyLa+NNxjdkq6DpFLANNQY5rHueFZHVY+8Cu1HYVP6DrheB0kv4m5xPjo7eKT7yQ==
 
-"@storybook/addon-actions@3.4.11":
+"@storybook/addon-actions@3.4.11", "@storybook/addon-actions@^3.4.11":
   version "3.4.11"
   resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-3.4.11.tgz#a51418c5b684fd3df2788c19ef266845d6068baf"
   integrity sha512-vA7KiMg6J3SlI0U9COhyX+nxoNNXsgXTKBA7oVjE+wduNwNc86WcbYGxKIxhCjJMBoAjZYBeRL9DmYWwaHb4xQ==
