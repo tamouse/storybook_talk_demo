@@ -34,6 +34,14 @@ export class LoginForm extends React.Component {
     this.props.onSubmit(this.state);
   };
 
+  componentDidMount() {
+    if (this.props.account) {
+      const email = this.props.account.email || "";
+      const phone = this.props.account.phone || "";
+      this.setState({ email, phone });
+    }
+  }
+
   render() {
     return (
       <Wrapper>
@@ -45,7 +53,7 @@ export class LoginForm extends React.Component {
             id="email-field"
             name="email"
             label="Email:"
-            value={this.state.name}
+            value={this.state.email}
             onChange={this.handleChange}
           />
           <HorizontalInputField
