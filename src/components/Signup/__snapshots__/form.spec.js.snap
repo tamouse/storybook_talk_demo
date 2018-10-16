@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SignupForm /> test renders the component 1`] = `
+<div
+  className="sc-bdVaJa foQXQy"
+>
+  <div
+    className="sc-bwzfXH lopfab"
+  >
+    <header
+      className="sc-bxivhb dWQBoy"
+    >
+      <h3>
+        Sign up
+      </h3>
+    </header>
+    <div
+      className="sc-htpNat iAbEgG"
+    >
+      <label
+        htmlFor="email"
+      >
+        Email:
+      </label>
+      <input
+        className="form-control"
+        id="email-field"
+        name="email"
+        onChange={[Function]}
+        value=""
+      />
+    </div>
+    <div
+      className="sc-htpNat iAbEgG"
+    >
+      <label
+        htmlFor="password"
+      >
+        Password:
+      </label>
+      <input
+        className="form-control"
+        id="password-field"
+        name="password"
+        onChange={[Function]}
+        value=""
+      />
+    </div>
+    <div
+      className="sc-htpNat iAbEgG"
+    >
+      <label
+        htmlFor="passwordConfirmation"
+      >
+        Confirm Password:
+      </label>
+      <input
+        className="form-control"
+        id="password-confirmation-field"
+        name="passwordConfirmation"
+        onChange={[Function]}
+        value=""
+      />
+    </div>
+    <div
+      className="sc-htpNat iAbEgG"
+    >
+      <label
+        htmlFor="phone"
+      >
+        Phone:
+      </label>
+      <input
+        className="form-control"
+        id="phone-field"
+        name="phone"
+        onChange={[Function]}
+        value=""
+      />
+    </div>
+    <div
+      className="sc-ifAKCX gwtZdg"
+    >
+      <button
+        className="sc-EHOje jJiyEz"
+        onClick={[Function]}
+        type="button"
+      >
+        Cancel
+      </button>
+      <button
+        className="sc-bZQynM jeGcWw"
+        onClick={[Function]}
+        type="button"
+      >
+        Save
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<SignupForm /> test renders with existing account 1`] = `
+<div
+  className="sc-bdVaJa foQXQy"
+>
+  <div
+    className="sc-bwzfXH lopfab"
+  >
+    <header
+      className="sc-bxivhb dWQBoy"
+    >
+      <h3>
+        Edit account
+      </h3>
+    </header>
+    <div
+      className="sc-htpNat iAbEgG"
+    >
+      <label
+        htmlFor="email"
+      >
+        Email:
+      </label>
+      <input
+        className="form-control"
+        id="email-field"
+        name="email"
+        onChange={[Function]}
+        value="test@email.com"
+      />
+    </div>
+    <div
+      className="sc-htpNat iAbEgG"
+    >
+      <label
+        htmlFor="password"
+      >
+        Password:
+      </label>
+      <input
+        className="form-control"
+        id="password-field"
+        name="password"
+        onChange={[Function]}
+        value=""
+      />
+    </div>
+    <div
+      className="sc-htpNat iAbEgG"
+    >
+      <label
+        htmlFor="passwordConfirmation"
+      >
+        Confirm Password:
+      </label>
+      <input
+        className="form-control"
+        id="password-confirmation-field"
+        name="passwordConfirmation"
+        onChange={[Function]}
+        value=""
+      />
+    </div>
+    <div
+      className="sc-htpNat iAbEgG"
+    >
+      <label
+        htmlFor="phone"
+      >
+        Phone:
+      </label>
+      <input
+        className="form-control"
+        id="phone-field"
+        name="phone"
+        onChange={[Function]}
+        value="555-1212"
+      />
+    </div>
+    <div
+      className="sc-ifAKCX gwtZdg"
+    >
+      <button
+        className="sc-EHOje jJiyEz"
+        onClick={[Function]}
+        type="button"
+      >
+        Cancel
+      </button>
+      <button
+        className="sc-bZQynM jeGcWw"
+        onClick={[Function]}
+        type="button"
+      >
+        Save
+      </button>
+    </div>
+  </div>
+</div>
+`;

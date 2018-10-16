@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HorizontalInputField /> testing passes props through 1`] = `
+<div
+  className="sc-htpNat iAbEgG"
+>
+  <label
+    htmlFor="email"
+  >
+    Test 2:
+  </label>
+  <input
+    className="form-control"
+    id="input-field"
+    name="email"
+    onBlur={[MockFunction]}
+    type="email"
+  />
+</div>
+`;
+
+exports[`<HorizontalInputField /> testing renders component 1`] = `
+<div
+  className="sc-htpNat iAbEgG"
+>
+  <label
+    htmlFor="test"
+  >
+    Test
+  </label>
+  <input
+    className="form-control"
+    name="test"
+  />
+</div>
+`;

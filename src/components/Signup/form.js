@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import {
   Wrapper,
   Form,
@@ -9,7 +10,29 @@ import {
 } from "../../styles";
 import { HorizontalInputField } from "../HorizontalInputField";
 
-export class LoginForm extends React.Component {
+/**
+ * SignupForm - presents and manages a signup form for a web site
+ *
+ * @class
+ * @param {object} props Properties passed to the instance of the class
+ * @property {string} [title] Title to use for form
+ * @property {object} [account] Prior account data
+ * @property {function} onSubmit Callback to recieve the form data object when the submit button is clicked
+ * @property {function} onCancel Callback invoked when the Cancel button is clicked
+ */
+export class SignupForm extends React.Component {
+  static propTypes = {
+    title: PropTypes.string,
+    account: PropTypes.object,
+    onSubmit: PropTypes.func.isRequired,
+    onCancel: PropTypes.func.isRequired
+  };
+
+  static defaultProps = {
+    title: "Sign up",
+    account: {}
+  };
+
   state = {
     email: "",
     password: "",
@@ -47,7 +70,7 @@ export class LoginForm extends React.Component {
       <Wrapper>
         <Form>
           <HeaderRow>
-            <h3>Sign up below</h3>
+            <h3>{this.props.title}</h3>
           </HeaderRow>
           <HorizontalInputField
             id="email-field"
@@ -90,4 +113,4 @@ export class LoginForm extends React.Component {
     );
   }
 }
-export default LoginForm;
+export default SignupForm;

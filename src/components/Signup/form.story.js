@@ -1,20 +1,24 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
 import { action } from "@storybook/addon-actions";
-import { LoginForm } from "./form.js";
+import { SignupForm } from "./form.js";
+import docString from "./form.md";
 
 class Consumer extends React.Component {
   render() {
     return (
-      <LoginForm
-        account={this.props.account}
-        onSubmit={this.props.onSubmit}
-        onCancel={this.props.onCancel}
-      />
+      <div>
+        <SignupForm {...this.props} />
+        <hr />
+        <div
+          dangerouslySetInnerHTML={{ __html: docString }}
+          style={{ fontFamily: `sans-serif`, margin: 20 }}
+        />
+      </div>
     );
   }
 }
-storiesOf("components/Login", module)
+storiesOf("components/SignUpForm", module)
   .add("new form", () => (
     <Consumer
       onSubmit={action("submit called")}
@@ -29,6 +33,7 @@ storiesOf("components/Login", module)
 
     return (
       <Consumer
+        title="Update your credentials"
         account={loginDetails}
         onSubmit={action("submit called")}
         onCancel={action("cancel called")}
