@@ -6,7 +6,7 @@ function importAll(req) {
 
 function loadStories() {
   let req;
-  req = require.context("../src", true, /\.story\.js$/);
+  req = require.context("../src", true, /(\.|\/)story\.js$/);
   importAll(req);
 }
 
